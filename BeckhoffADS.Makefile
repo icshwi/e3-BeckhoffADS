@@ -36,6 +36,9 @@ USR_CXXFLAGS_Linux += -Wextra
 APP:=.
 APPSRC:=$(APP)/AdsLib
 
+HEADERS += $(APPSRC)/AdsDef.h
+HEADERS += $(APPSRC)/AdsLib.h
+
 SOURCES += $(APPSRC)/AdsDef.cpp
 SOURCES += $(APPSRC)/AdsLib.cpp
 SOURCES += $(APPSRC)/AmsConnection.cpp
