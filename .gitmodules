@@ -1,0 +1,4 @@
+[submodule "BeckhoffADS"]
+	path = BeckhoffADS
+	url = https://github.com/icshwi/BeckhoffADS.git
+	ignore = all
