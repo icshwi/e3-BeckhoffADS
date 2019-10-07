@@ -1,0 +1,8 @@
+digraph BeckhoffADS {
+node [shape=record];
+base [label="base 7.0.3"]
+require [label="require 3.1.1"]
+BeckhoffADS [label="BeckhoffADS 1.0.0"]
+base -> require ->  BeckhoffADS 
+} 
+

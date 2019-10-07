@@ -17,8 +17,8 @@
 # 
 # Author  : Jeong Han Lee
 # email   : jeonghan.lee@gmail.com
-# Date    : Saturday, October  5 01:26:11 CEST 2019
-# version : 0.0.1
+# Date    : Monday, October  7 14:36:12 CEST 2019
+# version : 0.0.2
 #
 ## The following lines are mandatory, please don't change them.
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
@@ -33,8 +33,8 @@ include $(E3_REQUIRE_CONFIG)/DECOUPLE_FLAGS
 USR_CXXFLAGS_Linux += -std=c++11
 USR_CXXFLAGS_Linux += -Wextra
 
-APP:=.
-APPSRC:=$(APP)/AdsLib
+APP:=
+APPSRC:=AdsLib
 
 HEADERS += $(APPSRC)/AdsDef.h
 HEADERS += $(APPSRC)/AdsLib.h
